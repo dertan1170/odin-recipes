@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 40px;
+}
+
+h1, h2, p, ul, ol{
+    color: rgb(77, 71, 71);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #0a417c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
