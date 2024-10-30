@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f0f0f0;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+    margin-top: 20px;
     margin-left: 40px;
 }
 
@@ -11,6 +16,14 @@ h1, h2, p, ul, ol{
     margin-bottom: 10px;
 }
 
+/* ul {
+    line-height: 1.4;
+} */
+
+li {
+    margin-top: 5px;
+}
+
 p {
     line-height: 1.5;
 }
@@ -18,6 +31,8 @@ p {
 a {
     color: #0a417c;
     text-decoration: none;
+    padding: 1px;
+    border: 1px solid #b31313;
 }
 
 a:hover {
